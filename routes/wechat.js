@@ -7,7 +7,7 @@ const jsSHA = require("jssha");
  */
 router.get("/", function (req, res, next) {
   // 这里写你刚刚在上面随机生成的字符串
-  const token = "liufashi19980712luoxinyu19981026";
+  const token = "";
   //1.获取微信服务器Get请求的参数 signature、timestamp、nonce、echostr
   let signature = req.query.signature, //微信加密签名
     timestamp = req.query.timestamp, //时间戳
